@@ -62,7 +62,7 @@ const Finance = () => {
   return (
     <div className="finance-container">
       <div className="sidebar">
-        {/* Your navigation bar content */}
+
       </div>
       <div className="tab-bar-container">
         <ul className="nav nav-tabs">
