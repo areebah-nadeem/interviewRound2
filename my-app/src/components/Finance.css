@@ -1,0 +1,39 @@
+
+
+  .finance-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px; 
+    background-color: #f0f0f0;
+    padding: 20px;
+
+  }
+  
+  .tab-container {
+    width: 300px; 
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .tab {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    font-weight: bold;
+    background-color: #e0e0e0;
+  }
+  
+  .tab.disabled {
+    color: #999;
+    cursor: not-allowed;
+  }
+  
+  .tab-content {
+    flex: 1;
+    padding: 20px;
+  }

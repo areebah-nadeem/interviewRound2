@@ -1,0 +1,65 @@
+.action-plan-tab {
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .tab-header {
+    margin-bottom: 20px;
+  }
+  
+  .date-range {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .date-range label {
+    margin-right: 5px;
+  }
+  
+  .date-range input[type='date'] {
+    margin-right: 10px;
+  }
+  
+  .company-dropdown {
+    margin-left: 20px;
+  }
+  
+  .tab-content {
+    display: flex;
+  }
+  
+  .table-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .table-section:last-child {
+    margin-right: 0;
+  }
+  
+  .table-section h3 {
+    margin-top: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
